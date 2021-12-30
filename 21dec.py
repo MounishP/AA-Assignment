@@ -1,11 +1,14 @@
+"""
+371 = 3*3*3 + 7*7*7 + 1*1*1.
+"""
 
-for n in range(1,1001):
+for num in range(1,1001):
     sum = 0
-    temp = n
-    while temp != 0:
-        digit = temp % 10 #splitting of number using place values
+    temp = num
+    count = 0
+    while temp > 0:
+        digit = temp % 10
         sum += digit ** 3
         temp //= 10
-        # print (sum)
-    if n == sum:
-        print(n,"is a armstrong number")
+        if num == sum:
+            print(num,"is armstrong numbers")

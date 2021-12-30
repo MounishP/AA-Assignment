@@ -14,7 +14,7 @@ for i in range(1,11):
 
 
 class Marks:
-    def __init__(self, name, sanskrit, english, telugu, maths):
+    def __init__(self, name, hindi, english, telugu, maths):
         self.name = name
         self.english = english
         self.hindi = hindi
